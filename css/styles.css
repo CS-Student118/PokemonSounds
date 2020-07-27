@@ -79,7 +79,7 @@ button effect whe the user clicks or types. */
 
 .p {
 
-  background-image: url('images/pikachu.jpg');
+  background-image: url('../images/pikachu.jpg');
   background-size: 200px 200px;
 
 
@@ -87,42 +87,42 @@ button effect whe the user clicks or types. */
 
 .c {
 
-  background-image: url('images/charmander.png');
+  background-image: url('../images/charmander.png');
   background-size: 180px 200px;
 
 }
 
 .k {
 
-  background-image: url('images/koffing.jpg');
+  background-image: url('../images/koffing.jpg');
   background-size: 150px 150px;
 
 }
 
 .g {
 
-  background-image: url('images/grimer.jpg');
+  background-image: url('../images/grimer.jpg');
   background-size: 170px 180px;
 
 }
 
 .v {
 
-  background-image: url('images/voltorb.png');
+  background-image: url('../images/voltorb.png');
   background-size: 150px 150px;
 
 }
 
 .m {
 
-  background-image: url('images/magnemite.png');
+  background-image: url('../images/magnemite.png');
   background-size: 150px 150px;
 
 }
 
 .s {
 
-  background-image: url('images/psyduck.png');
+  background-image: url('../images/psyduck.png');
   background-size: 150px 150px;
 
 }
