@@ -1,0 +1,128 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+/* Style for the entire body */
+
+body {
+
+  text-align: center;
+  background-color: #f9ed69;
+}
+
+/* top h1 heading */
+.main-heading {
+
+  font-size: 5rem;
+  color: #f08a5d;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+/* This div contains all of the button elements and their text */
+.set {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 9%;
+
+}
+
+/* This class is added to all of the buttons to keep the styling consistent */
+.pokemon-btn {
+
+  cursor: pointer;
+
+}
+
+/* The buttons look like they are expanding upon hover */
+.pokemon-btn button:hover {
+
+  transform: scale(1.2);
+  transition: ease-in-out 500ms;
+  cursor: pointer;
+
+}
+
+.pokemon-btn h2 {
+
+  color: #f08a5d;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #6a2c70;
+
+}
+
+/* This class gets added for under a second to the button that the user clicks, or presses the key of. This allows for a pressed 
+button effect whe the user clicks or types. */
+.pressed {
+
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+
+}
+
+
+/* This applies to all of the square buttons, this helps keep them consistent */
+.pokemon {
+  outline: none;
+  border: 10px solid #404B69;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: white;
+}
+
+.p {
+
+  background-image: url('images/pikachu.jpg');
+  background-size: 200px 200px;
+
+
+}
+
+.c {
+
+  background-image: url('images/charmander.png');
+  background-size: 180px 200px;
+
+}
+
+.k {
+
+  background-image: url('images/koffing.jpg');
+  background-size: 150px 150px;
+
+}
+
+.g {
+
+  background-image: url('images/grimer.jpg');
+  background-size: 170px 180px;
+
+}
+
+.v {
+
+  background-image: url('images/voltorb.png');
+  background-size: 150px 150px;
+
+}
+
+.m {
+
+  background-image: url('images/magnemite.png');
+  background-size: 150px 150px;
+
+}
+
+.s {
+
+  background-image: url('images/psyduck.png');
+  background-size: 150px 150px;
+
+}
